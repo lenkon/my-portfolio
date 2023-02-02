@@ -89,6 +89,20 @@ const projectDetails = [
     flip: 1,
     id: 4,
   },
+
+  {
+    title: 'To Do List',
+    description:
+      'This is a simple To-Do list web application that has features for users to add, edit and remove tasks from or to a list. Built with JavaScript, HTML, and CSS.',
+    image: './images/large/to-do-list-screenshot2.png',
+    alt: 'to do list project image',
+    companyRoles: ['Microverse', 'Student', '2022'],
+    skills: ['html', 'css', 'javascript'],
+    liveLink: { link: 'https://lenkon.github.io/my-portfolio/' },
+    sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
+    buttonText: 'See Project',
+    id: 5,
+  },
 ];
 
 // Work details
