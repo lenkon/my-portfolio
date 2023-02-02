@@ -33,61 +33,17 @@ const cardWorksWrapper = document.getElementById('card-works-wrapper');
 const popupCardDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea";
 const projectDetails = [
   {
-    title: 'Tonic',
+    title: 'Awesome Books - ES6',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups are required.',
-    image: './images/large/Snapshoot Portfolio -Tonic.png',
-    alt: 'tonic project image',
-    companyRoles: ['CANOPY', 'Back End Dev', '2015'],
+      'This is a simple online library application, which is an upgraded version of the Awesome Books app, that has features to keep a record of books in the library. It can add, remove and show books from the library. Built with JavaScript, HTML, CSS, and ES6.',
+    image: './images/large/awesome-books-es6-screenshot2.png',
+    alt: 'awesome books project image',
+    companyRoles: ['Microverse', 'Student', '2022'],
     skills: ['html', 'css', 'javascript'],
-    liveLink: { link: './index.html' },
-    sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
+    liveLink: { link: 'https://lenkon.github.io/awesome-books-es6/' },
+    sourceLink: { link: 'https://github.com/lenkon/awesome-books-es6' },
     buttonText: 'See Project',
     id: 1,
-  },
-
-  {
-    title: 'Multi-Post Stories',
-    description:
-      'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-    image: './images/large/Snapshoot Portfolio - Multi-Post Stories.png',
-    alt: 'multi-post stories project image',
-    companyRoles: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    skills: ['html', 'Ruby on rails', 'css', 'javascript'],
-    liveLink: { link: './index.html' },
-    sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
-    buttonText: 'See Project',
-    flip: 1,
-    id: 2,
-  },
-
-  {
-    title: 'Facebook 360',
-    description:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    image: './images/large/Snapshoot Portfolio - Facebook 360.png',
-    alt: 'facebook 360 project image',
-    companyRoles: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    skills: ['html', 'Ruby on rails', 'css', 'javascript'],
-    liveLink: { link: 'index.html' },
-    sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
-    buttonText: 'See Project',
-    id: 3,
-  },
-
-  {
-    title: 'Uber Navigation',
-    description:
-      'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    image: './images/large/Snapshoot Portfolio - Uber Navigation.png',
-    alt: 'uber navigation project image',
-    companyRoles: ['Uber', 'Lead Developer', '2018'],
-    skills: ['html', 'Ruby on rails', 'css', 'javascript'],
-    liveLink: { link: './index.html' },
-    sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
-    buttonText: 'See Project',
-    flip: 1,
-    id: 4,
   },
 
   {
@@ -96,12 +52,13 @@ const projectDetails = [
       'This is a simple To-Do list web application that has features for users to add, edit and remove tasks from or to a list. Built with JavaScript, HTML, and CSS.',
     image: './images/large/to-do-list-screenshot2.png',
     alt: 'to do list project image',
-    companyRoles: ['Microverse', 'Student', '2022'],
+    companyRoles: ['Microverse', 'Student', '2023'],
     skills: ['html', 'css', 'javascript'],
     liveLink: { link: 'https://lenkon.github.io/my-portfolio/' },
     sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
     buttonText: 'See Project',
-    id: 5,
+    flip: 1,
+    id: 2,
   },
 ];
 
