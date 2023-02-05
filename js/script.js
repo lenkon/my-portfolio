@@ -33,6 +33,20 @@ const cardWorksWrapper = document.getElementById('card-works-wrapper');
 const popupCardDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea";
 const projectDetails = [
   {
+    title: 'Capstone 1 - Concert Page',
+    description:
+      'This is a capstone project for the first module where I create a concert festival page using HTML, CSS and JavaScript.',
+    image: './images/large/concert-screenshot2.png',
+    alt: 'concert festival image',
+    companyRoles: ['Microverse', 'Student', '2022'],
+    skills: ['html', 'css', 'javascript'],
+    liveLink: { link: 'https://lenkon.github.io/capstone-concert-page/' },
+    sourceLink: { link: 'https://github.com/lenkon/capstone-concert-page' },
+    buttonText: 'See Project',
+    id: 1,
+  },
+
+  {
     title: 'Awesome Books - ES6',
     description:
       'This is a simple online library application, which is an upgraded version of the Awesome Books app, that has features to keep a record of books in the library. It can add, remove and show books from the library. Built with JavaScript, HTML, CSS, and ES6.',
@@ -43,7 +57,8 @@ const projectDetails = [
     liveLink: { link: 'https://lenkon.github.io/awesome-books-es6/' },
     sourceLink: { link: 'https://github.com/lenkon/awesome-books-es6' },
     buttonText: 'See Project',
-    id: 1,
+    flip: 1,
+    id: 2,
   },
 
   {
@@ -57,8 +72,7 @@ const projectDetails = [
     liveLink: { link: 'https://lenkon.github.io/my-portfolio/' },
     sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
     buttonText: 'See Project',
-    flip: 1,
-    id: 2,
+    id: 3,
   },
 ];
 
