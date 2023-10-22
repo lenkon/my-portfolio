@@ -161,6 +161,11 @@ body {
   line-height: 24px;
   color: #7f8cff;
   max-width: 250px;
+
+  /* padding-left: 24px; */
+}
+
+.connect-about-me {
   padding-left: 24px;
 }
 
@@ -709,6 +714,10 @@ body {
     transition: color 0.3s ease;
   }
 
+  .header-main > a {
+    text-decoration: none;
+  }
+
   .menu-desktop-list a:hover {
     color: #8083e3;
   }
@@ -717,6 +726,7 @@ body {
   .header-main {
     padding: 204px 0 0 154px;
   }
+
 
   .header-container {
     background: #fff url("../images/large/Header\ bg@2x.png");
