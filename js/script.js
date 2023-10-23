@@ -187,13 +187,13 @@ const popupDetails = (item) => {
             <div class="popup-card-links">
               <a href="${
   item.liveLink.link
-}" target="_blank" class="card-button popup-button">
+}" target="_blank" rel="noopener" class="card-button popup-button">
                 <span>See live</span>
                 <img src="./images/live-link-Icon.png" alt="live link icon">
               </a>
               <a href="${
   item.sourceLink.link
-}" target="_blank" class="card-button popup-button">
+}" target="_blank" rel="noopener" class="card-button popup-button">
                 <span>See source</span>
                 <img src="./images/github-Vector.png" alt="github link icon">
               </a>
