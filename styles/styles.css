@@ -13,7 +13,7 @@ ul li {
 body {
   background: #f7f7f9;
   box-sizing: border-box;
-  max-width: 375px;
+  max-width: auto;
 }
 
 .navbar-container {
@@ -93,6 +93,11 @@ body {
   line-height: 44px;
   color: #fff;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+  color: #8083e3;
 }
 
 .base-line {
@@ -156,6 +161,11 @@ body {
   line-height: 24px;
   color: #7f8cff;
   max-width: 250px;
+
+  /* padding-left: 24px; */
+}
+
+.connect-about-me {
   padding-left: 24px;
 }
 
@@ -170,6 +180,12 @@ body {
 .iconlists li {
   list-style: none;
   margin-right: 20px;
+}
+
+/* .icon-button > img:hover { */
+.icon-button:hover {
+  transform: scale(1.2);
+  transition: 0.5s ease-in-out;
 }
 
 .card-works-wrapper {
@@ -202,10 +218,12 @@ body {
 }
 
 .card-list {
-  width: 100%;
-  height: 32px;
   display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: 32px;
   align-items: center;
+  padding: 20px 0;
 }
 
 .card-canopy {
@@ -247,17 +265,25 @@ body {
   margin: 12px 0;
 }
 
-.card-tools-list {
+.card-tools-list ul {
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 10px;
   list-style: none;
-  padding-inline-start: 0;
-  justify-content: space-between;
-  width: 200px;
 }
 
 .card-tools-list li {
-  width: 100%;
+  background-color: #d8d8d8;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.card-tools-list li:hover {
+  background-color: #bdbbbb;
 }
 
 .card-tools {
@@ -278,6 +304,10 @@ body {
 .card-button-box {
   margin: 12px 0;
   max-width: 140px;
+}
+
+.card-button-box > a {
+  text-decoration: none;
 }
 
 .card-button {
@@ -370,6 +400,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.popup-close-button:hover {
+  background-color: #bdbbbb;
 }
 
 .popup-details-header {
@@ -680,6 +715,15 @@ body {
     color: #344563;
     padding: 12px;
     text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .header-main > a {
+    text-decoration: none;
+  }
+
+  .menu-desktop-list a:hover {
+    color: #8083e3;
   }
 
   /* Desktop - header */
@@ -804,9 +848,9 @@ body {
     margin: 0;
   }
 
-  .card-list {
+  /* .card-list {
     padding: 20px 0;
-  }
+  } */
 
   .card-canopy {
     font-weight: 500;

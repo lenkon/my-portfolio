@@ -33,46 +33,72 @@ const cardWorksWrapper = document.getElementById('card-works-wrapper');
 const popupCardDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea";
 const projectDetails = [
   {
+    title: 'Doctor Appointment',
+    description:
+      'This is a two-app simple doctor appointment web application. This app allows keeping a record of doctor appointments by creating or deleting doctors and appointments. Built with ReactJS, Redux, Ruby on Rails, and PostgreSQL',
+    image: './images/large/doctor-appointment.png',
+    alt: 'doctor appointment image',
+    companyRoles: ['Microverse', 'Student', '2023'],
+    skills: ['ReactJS', 'Redux', 'Ruby', 'Rails', 'PostgreSQL'],
+    liveLink: { link: 'https://doctor-appointment-3o4a.onrender.com/' },
+    sourceLink: { link: 'https://github.com/abel-tefera/doctor-appointment-back-end' },
+    buttonText: 'See Project',
+    id: 1,
+  },
+  {
+    title: 'Budget App',
+    description:
+      'Budget App is a Ruby on Rails mobile web application where users can manage their budget: users have a list of transactions associated with a category, so that users can see how much money the users spent on what.',
+    image: './images/large/budget-app.png',
+    alt: 'budget app image',
+    companyRoles: ['Microverse', 'Student', '2023'],
+    skills: ['Ruby', 'Rails', 'PostgreSQL'],
+    liveLink: { link: 'https://budget-app-3e3v.onrender.com' },
+    sourceLink: { link: 'https://github.com/lenkon/Budget-App' },
+    buttonText: 'See Project',
+    id: 2,
+    flip: 1,
+  },
+  {
+    title: 'Metrics App - Community TV Data',
+    description:
+      'This React capstone project is about building a mobile web application to check a list of metrics (numeric values) that is created making use of React and Redux.',
+    image: './images/large/metrics-app.png',
+    alt: 'metrics app image',
+    companyRoles: ['Microverse', 'Student', '2023'],
+    skills: ['React', 'Redux', 'JavaScript'],
+    liveLink: { link: 'https://react-capstone-project-metrics-webapp.onrender.com/' },
+    sourceLink: { link: 'https://github.com/lenkon/react-capstone-project-metrics-webapp' },
+    buttonText: 'See Project',
+    id: 3,
+  },
+  {
     title: 'Capstone 1 - Concert Page',
     description:
       'This is a capstone project for the first module where I create a concert festival page using HTML, CSS and JavaScript.',
-    image: './images/large/concert-screenshot2.png',
+    image: './images/large/concert.png',
     alt: 'concert festival image',
     companyRoles: ['Microverse', 'Student', '2022'],
     skills: ['html', 'css', 'javascript'],
     liveLink: { link: 'https://lenkon.github.io/capstone-concert-page/' },
     sourceLink: { link: 'https://github.com/lenkon/capstone-concert-page' },
     buttonText: 'See Project',
-    id: 1,
+    id: 4,
+    flip: 1,
   },
 
   {
     title: 'Awesome Books - ES6',
     description:
       'This is a simple online library application, which is an upgraded version of the Awesome Books app, that has features to keep a record of books in the library. It can add, remove and show books from the library. Built with JavaScript, HTML, CSS, and ES6.',
-    image: './images/large/awesome-books-es6-screenshot2.png',
+    image: './images/large/awesome-books.png',
     alt: 'awesome books project image',
     companyRoles: ['Microverse', 'Student', '2022'],
     skills: ['html', 'css', 'javascript'],
     liveLink: { link: 'https://lenkon.github.io/awesome-books-es6/' },
     sourceLink: { link: 'https://github.com/lenkon/awesome-books-es6' },
     buttonText: 'See Project',
-    flip: 1,
-    id: 2,
-  },
-
-  {
-    title: 'To Do List',
-    description:
-      'This is a simple To-Do list web application that has features for users to add, edit and remove tasks from or to a list. Built with JavaScript, HTML, and CSS.',
-    image: './images/large/to-do-list-screenshot2.png',
-    alt: 'to do list project image',
-    companyRoles: ['Microverse', 'Student', '2023'],
-    skills: ['html', 'css', 'javascript'],
-    liveLink: { link: 'https://lenkon.github.io/my-portfolio/' },
-    sourceLink: { link: 'https://github.com/lenkon/Portfolio' },
-    buttonText: 'See Project',
-    id: 3,
+    id: 5,
   },
 ];
 
@@ -103,9 +129,11 @@ const createProjectDetails = (item) => {
         ${roles.join('')}
       </div>
       <p class="card-main-text">${item.description}</p>
-      <ul class="card-tools-list">
-        ${skillsList.join('')}
-      </ul>
+      <div class="card-tools-list">
+        <ul>
+          ${skillsList.join('')}
+        </ul>
+      </div>
       <div class="card-button-box">
         <button card-id=${
   item.id
@@ -159,13 +187,13 @@ const popupDetails = (item) => {
             <div class="popup-card-links">
               <a href="${
   item.liveLink.link
-}" target="_blank" class="card-button popup-button">
+}" target="_blank" rel="noopener" class="card-button popup-button">
                 <span>See live</span>
                 <img src="./images/live-link-Icon.png" alt="live link icon">
               </a>
               <a href="${
   item.sourceLink.link
-}" target="_blank" class="card-button popup-button">
+}" target="_blank" rel="noopener" class="card-button popup-button">
                 <span>See source</span>
                 <img src="./images/github-Vector.png" alt="github link icon">
               </a>
