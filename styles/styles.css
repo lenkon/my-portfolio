@@ -306,6 +306,10 @@ body {
   max-width: 140px;
 }
 
+.card-button-box > a {
+  text-decoration: none;
+}
+
 .card-button {
   background: #fff;
   padding: 8px;
