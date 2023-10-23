@@ -91,7 +91,7 @@ const projectDetails = [
     title: 'Awesome Books - ES6',
     description:
       'This is a simple online library application, which is an upgraded version of the Awesome Books app, that has features to keep a record of books in the library. It can add, remove and show books from the library. Built with JavaScript, HTML, CSS, and ES6.',
-    image: './images/large/awesome-books-es6-screenshot2.png',
+    image: './images/large/awesome-books.png',
     alt: 'awesome books project image',
     companyRoles: ['Microverse', 'Student', '2022'],
     skills: ['html', 'css', 'javascript'],
